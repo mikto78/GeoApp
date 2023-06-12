@@ -12,5 +12,5 @@ class MapViewModel(private val compasUtils: CompasUtils) : ViewModel() {
         get() = compasUtils.azimuthInDeegres
 
     fun setUpCompass(context: Context) = compasUtils.setUpCompas(context)
-    fun unregisterlistener() = compasUtils.unregisterlisteners()
+    fun unregisterlistener()= compasUtils.unregisterlisteners()
 }
