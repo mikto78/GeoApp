@@ -44,6 +44,7 @@ class CompasUtils: SensorEventListener {
     fun unregisterlisteners(){
         sensorManager?.unregisterListener(this, accelometer)
         sensorManager?.unregisterListener(this, magnetometrer)
+        //xd
     }
 
     override fun onSensorChanged(sensorEvent: SensorEvent) {
