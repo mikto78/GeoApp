@@ -13,6 +13,7 @@ import androidx.lifecycle.MutableLiveData
 import com.example.geoapp.R
 
 class CompasUtils: SensorEventListener {
+    // test
 
     val azimuthInDeegres: LiveData<Float>
         get() = _azimuthInDegrees
